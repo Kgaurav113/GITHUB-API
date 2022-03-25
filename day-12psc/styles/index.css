@@ -1,0 +1,80 @@
+body {
+    margin: 0px;
+  }
+  #navbar {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  #logo {
+      margin-top: 5px;
+    width: 5%;
+    text-align: right;
+  }
+  #logo img {
+    width: 40%;
+    border-radius: 80%;
+    padding: 9px;
+  }
+  #profile img {
+    border-radius: 80%;
+    width: 50%;
+    height: 35px;
+    padding-top: 7%;
+  }
+  #search {
+    width: 10%;
+    padding: 12px;
+  }
+  ul {
+      
+    padding-left: 0px;
+  }
+  
+  #list li {
+    display: inline;
+    margin-right: 2%;
+  }
+  #options {
+    width: 75%;
+  }
+  #profile {
+    width: 7%;
+  }
+  
+  
+  #main{
+  
+  display: flex;
+  padding: 3%;
+  gap: 20px;
+  }
+  #profilepic{
+    border-radius:50%;
+  }
+  #repos{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+   
+  }
+  #repos>div{
+    border:2px solid black;
+    height: 200px;
+    width: 550px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  p{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 15px;
+    color: teal;
+  }
+  #visi{
+    margin: auto;
+  }
